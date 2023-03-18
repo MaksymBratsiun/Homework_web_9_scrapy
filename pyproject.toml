@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework-web-9-scrapy"
+version = "0.1.0"
+description = ""
+authors = ["MaksymBratsiun <bratsyun_m@ukr.net>"]
+readme = "README.md"
+packages = [{include = "homework_web_9_scrapy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
